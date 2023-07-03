@@ -21,10 +21,16 @@
 		<div class="searchbar">
 			<form action="{{route('job.list')}}" method="get">	
 			<div class="input-group">
-				{{ \Location::get(request()->ip())->countryName }}
+
+{{--				{{ \App\CountryDetail::query()->where('sort_name',\Location::get('197.132.80.240')->countryCode )->first()->getCountry('country_id') }}--}}
 			<input type="text"  name="search" id="jbsearch" value="{{Request::get('search', '')}}" class="form-control" placeholder="{{__('Enter Skills or job title')}}" autocomplete="off" />
-			{!! Form::select('country_id[]', ['' => __('Select Country')]+$countries, Request::get('country_id', null), array('class'=>'form-control', 'id'=>'functional_area_id')) !!}
-			<button type="submit" class="btn"><i class="fas fa-search"></i></button>
+				@if(App::environment('production')){{--production mode --}}
+				{!! Form::select('country_id[]', ['' => __('Select Country')]+$countries, \App\CountryDetail::query()->where('sort_name',\Location::get(request()->ip())->countryCode )->first()->getCountry('country_id'), array('class'=>'form-control', 'id'=>'functional_area_id'))  !!}
+				@else{{--local mode --}}
+				{!! Form::select('country_id[]', ['' => __('Select Country')]+$countries, Request::get('country_id', null), array('class'=>'form-control', 'id'=>'functional_area_id','value'=>'1'  )) !!}
+				@endif
+
+				<button type="submit" class="btn"><i class="fas fa-search"></i></button>
 			</div>						
 			</form>
     		</div>
