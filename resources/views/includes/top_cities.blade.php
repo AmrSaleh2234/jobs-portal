@@ -20,7 +20,7 @@
 {{--                        <div class="cityimg">{{ ImgUploader::print_image("city_images/$city->upload_image") }}</div>--}}
 {{--                        @endif  --}}
                         <div class="cityinfobox">
-                        <h4><a href="{{route('job.list', ['city_id[]'=>$city->city_id])}}" title="{{$city->city}}">{{$city->city}}</a></h4>
+                        <h4><a href="{{route('job.list', ['city_id[]'=>$city->city_id])}}" title="{{$city->city}}">{{$city->city}} ({{ $city->getCountry('country')}})</a></h4>
                         <span>({{$city_id_num_jobs->num_jobs}}) {{__('Open Jobs')}}</span>
                         </div>
                         </li>
