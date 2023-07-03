@@ -21,6 +21,7 @@
 		<div class="searchbar">
 			<form action="{{route('job.list')}}" method="get">	
 			<div class="input-group">
+				{{ \Location::get(request()->ip())->countryName }}
 			<input type="text"  name="search" id="jbsearch" value="{{Request::get('search', '')}}" class="form-control" placeholder="{{__('Enter Skills or job title')}}" autocomplete="off" />
 			{!! Form::select('country_id[]', ['' => __('Select Country')]+$countries, Request::get('country_id', null), array('class'=>'form-control', 'id'=>'functional_area_id')) !!}
 			<button type="submit" class="btn"><i class="fas fa-search"></i></button>

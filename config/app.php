@@ -159,6 +159,8 @@ return [
         Yajra\DataTables\DataTablesServiceProvider::class,
         App\Providers\CustomConfigServiceProvider::class,
         Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class,
+        Stevebauman\Location\LocationServiceProvider::class,
+
     ],
     /*
       |--------------------------------------------------------------------------
@@ -215,5 +217,7 @@ return [
         'MiscHelper' => App\Helpers\MiscHelper::class,
         'NoCaptcha' => Anhskohbo\NoCaptcha\Facades\NoCaptcha::class,
         'UserVerification' => Jrean\UserVerification\Facades\UserVerification::class,
+        'Location' => 'Stevebauman\Location\Facades\Location',
+
     ],
 ];
