@@ -16,9 +16,9 @@
 
                         <li class="col-lg-3 col-md-4">
                         
-                        @if(isset($city) && null!==($city->upload_image ))
-                        <div class="cityimg">{{ ImgUploader::print_image("city_images/$city->upload_image") }}</div>
-                        @endif  
+{{--                        @if(isset($city) && null!==($city->upload_image ))--}}
+{{--                        <div class="cityimg">{{ ImgUploader::print_image("city_images/$city->upload_image") }}</div>--}}
+{{--                        @endif  --}}
                         <div class="cityinfobox">
                         <h4><a href="{{route('job.list', ['city_id[]'=>$city->city_id])}}" title="{{$city->city}}">{{$city->city}}</a></h4>
                         <span>({{$city_id_num_jobs->num_jobs}}) {{__('Open Jobs')}}</span>
