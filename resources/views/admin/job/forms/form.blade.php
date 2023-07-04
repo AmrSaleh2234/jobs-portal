@@ -3,18 +3,28 @@
 <div class="form-body">        
     {!! Form::hidden('id', null) !!}
     <div class="form-group {!! APFrmErrHelp::hasError($errors, 'company_id') !!}" id="company_id_div">
-        {!! Form::label('company_id', 'Company', ['class' => 'bold']) !!}                    
+        {!! Form::label('company_id', 'Company', ['class' => 'bold']) !!}
+        <span class="text-danger">
+                *
+        </span>
         {!! Form::select('company_id', ['' => 'Select Company']+$companies, null, array('class'=>'form-control', 'id'=>'company_id')) !!}
         {!! APFrmErrHelp::showErrors($errors, 'company_id') !!}                                       
     </div>
     <div class="form-group {!! APFrmErrHelp::hasError($errors, 'title') !!}">
         {!! Form::label('title', 'Job title', ['class' => 'bold']) !!}
+        <span class="text-danger">
+                *
+        </span>
         {!! Form::text('title', null, array('class'=>'form-control', 'id'=>'title', 'placeholder'=>'Job title')) !!}
         {!! APFrmErrHelp::showErrors($errors, 'title') !!}
     </div>
     <div class="form-group {!! APFrmErrHelp::hasError($errors, 'description') !!}">
         {!! Form::label('description', 'Job description', ['class' => 'bold']) !!}
+        <span class="text-danger">
+                *
+        </span>
         {!! Form::textarea('description', null, array('class'=>'form-control', 'id'=>'description', 'placeholder'=>'Job description')) !!}
+
         {!! APFrmErrHelp::showErrors($errors, 'description') !!}
     </div>
 	
@@ -38,19 +48,28 @@
         {!! APFrmErrHelp::showErrors($errors, 'skills') !!}
     </div>
     <div class="form-group {!! APFrmErrHelp::hasError($errors, 'country_id') !!}" id="country_id_div">
-        {!! Form::label('country_id', 'Country', ['class' => 'bold']) !!}                    
+        {!! Form::label('country_id', 'Country', ['class' => 'bold']) !!}
+        <span class="text-danger">
+                *
+        </span>
         {!! Form::select('country_id', ['' => 'Select Country']+$countries, old('country_id', (isset($job))? $job->country_id:$siteSetting->default_country_id), array('class'=>'form-control', 'id'=>'country_id')) !!}
         {!! APFrmErrHelp::showErrors($errors, 'country_id') !!}                                       
     </div>
     <div class="form-group {!! APFrmErrHelp::hasError($errors, 'state_id') !!}" id="state_id_div">
-        {!! Form::label('state_id', 'State', ['class' => 'bold']) !!}                    
+        {!! Form::label('state_id', 'State', ['class' => 'bold']) !!}
+        <span class="text-danger">
+                *
+        </span>
         <span id="default_state_dd">
             {!! Form::select('state_id', ['' => 'Select State'], null, array('class'=>'form-control', 'id'=>'state_id')) !!}
         </span>
         {!! APFrmErrHelp::showErrors($errors, 'state_id') !!}                                       
     </div>
     <div class="form-group {!! APFrmErrHelp::hasError($errors, 'city_id') !!}" id="city_id_div">
-        {!! Form::label('city_id', 'City', ['class' => 'bold']) !!}                    
+        {!! Form::label('city_id', 'City', ['class' => 'bold']) !!}
+        <span class="text-danger">
+                *
+        </span>
         <span id="default_city_dd">
             {!! Form::select('city_id', ['' => 'Select City'], null, array('class'=>'form-control', 'id'=>'city_id')) !!}
         </span>
@@ -122,12 +141,18 @@
         {!! APFrmErrHelp::showErrors($errors, 'hide_salary') !!}
     </div>
     <div class="form-group {!! APFrmErrHelp::hasError($errors, 'functional_area_id') !!}" id="functional_area_id_div">
-        {!! Form::label('functional_area_id', 'Functional Area', ['class' => 'bold']) !!}                    
+        {!! Form::label('functional_area_id', 'Functional Area', ['class' => 'bold']) !!}
+        <span class="text-danger">
+                *
+        </span>
         {!! Form::select('functional_area_id', ['' => 'Select Functional Area']+$functionalAreas, null, array('class'=>'form-control', 'id'=>'functional_area_id')) !!}
         {!! APFrmErrHelp::showErrors($errors, 'functional_area_id') !!}                                       
     </div>
     <div class="form-group {!! APFrmErrHelp::hasError($errors, 'job_type_id') !!}" id="job_type_id_div">
-        {!! Form::label('job_type_id', 'Job Type', ['class' => 'bold']) !!}                    
+        {!! Form::label('job_type_id', 'Job Type', ['class' => 'bold']) !!}
+        <span class="text-danger">
+                *
+        </span>
         {!! Form::select('job_type_id', ['' => 'Select Job Type']+$jobTypes, null, array('class'=>'form-control', 'id'=>'job_type_id')) !!}
         {!! APFrmErrHelp::showErrors($errors, 'job_type_id') !!}                                       
     </div>
@@ -148,7 +173,10 @@
     </div>
     <div class="form-group {!! APFrmErrHelp::hasError($errors, 'expiry_date') !!}">
         {!! Form::label('expiry_date', 'Job expiry date', ['class' => 'bold']) !!}
-        {!! Form::text('expiry_date', null, array('class'=>'form-control datepicker', 'id'=>'expiry_date', 'placeholder'=>'Job expiry date', 'autocomplete'=>'off')) !!}
+        <span class="text-danger">
+                *
+        </span>
+        {!! Form::text('expiry_date', Carbon\Carbon::now()->addMonths(4), array('class'=>'form-control datepicker', 'id'=>'expiry_date', 'placeholder'=>'Job expiry date', 'autocomplete'=>'off')) !!}
         {!! APFrmErrHelp::showErrors($errors, 'expiry_date') !!}
     </div>
     <div class="form-group {!! APFrmErrHelp::hasError($errors, 'degree_level_id') !!}" id="degree_level_id_div">
@@ -163,6 +191,9 @@
     </div>
     <div class="form-group {!! APFrmErrHelp::hasError($errors, 'is_active') !!}">
         {!! Form::label('is_active', 'Is Active?', ['class' => 'bold']) !!}
+        <span class="text-danger">
+                *
+        </span>
         <div class="radio-list">
             <?php
             $is_active_1 = 'checked="checked"';
@@ -183,6 +214,9 @@
     </div>
     <div class="form-group {!! APFrmErrHelp::hasError($errors, 'is_featured') !!}">
         {!! Form::label('is_featured', 'Is Featured?', ['class' => 'bold']) !!}
+        <span class="text-danger">
+                *
+        </span>
         <div class="radio-list">
             <?php
             $is_featured_1 = '';
