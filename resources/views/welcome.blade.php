@@ -34,7 +34,7 @@
 <!-- Top Cities start -->
 <!-- Top Cities End -->
 <!-- Video start -->
-@include('includes.video')
+{{--@include('includes.video')--}}
 <!-- Video end --> 
 <!-- Login box start -->
 @include('includes.employer_login_text')
