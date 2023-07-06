@@ -1,4 +1,4 @@
-<script type="text/javascript">
+ <script type="text/javascript">
     $(document).ready(function ($) {
     $('#country_id').on('change', function (e) {
     e.preventDefault();

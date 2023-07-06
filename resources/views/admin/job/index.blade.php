@@ -22,13 +22,29 @@
         <h3 class="page-title">Manage Jobs <small>Jobs</small> </h3>
         <!-- END PAGE TITLE--> 
         <!-- END PAGE HEADER-->
+        @include('flash::message')
         <div class="row">
             <div class="col-md-12"> 
                 <!-- Begin: life time stats -->
                 <div class="portlet light portlet-fit portlet-datatable bordered">
                     <div class="portlet-title">
                         <div class="caption"> <i class="icon-settings font-dark"></i> <span class="caption-subject font-dark sbold uppercase">Jobs</span> </div>
-                        <div class="actions"> <a href="{{ route('create.job') }}" class="btn btn-xs btn-success"><i class="glyphicon glyphicon-plus"></i> Add New Job</a> </div>
+                        <div class="actions d-flex" style="width: 30%">
+                                {!! Form::open(array('method' => 'post', 'route' => 'upload.job', 'class' => 'form', 'files'=>true)) !!}
+                            <div style="display: flex;margin-bottom: 12px;align-items: center;">
+                                <input type="file" name="file" placeholder="upload file jobs" style="width: 150px;margin-right: 8px;margin-left: 8px">
+                                <button type="submit"  class="btn btn-s btn-success">
+                                    submit
+                                </button>
+                            </div>
+
+                                {!! Form::close() !!}
+
+
+
+                            <a href="{{ route('create.job') }}" class="btn btn-xs btn-success"><i class="glyphicon glyphicon-plus"></i> Add New Job</a>
+
+                        </div>
                     </div>
                     <div class="portlet-body">
                         <div class="table-container">

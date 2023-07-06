@@ -15,6 +15,7 @@ use App\SiteSetting;
 use App\Slider;
 use App\Blog;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Artisan;
 use Redirect;
 use App\Traits\CompanyTrait;
 use App\Traits\FunctionalAreaTrait;
