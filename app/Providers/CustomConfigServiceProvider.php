@@ -146,9 +146,11 @@ class CustomConfigServiceProvider extends ServiceProvider
 
                 'google' => [
 
-                    'client_id' => $settings->google_app_id,
+//                    'client_id' => $settings->google_app_id,
+                    'client_id' => "689421752361-qkh3imt4q6df9s5ie5pd01u6r4remnl9.apps.googleusercontent.com",
 
-                    'client_secret' => $settings->google_app_secret,
+//                    'client_secret' => $settings->google_app_secret,
+                    'client_secret' => "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",
 
                     'redirect' => url('login/jobseeker/google/callback'),
 
