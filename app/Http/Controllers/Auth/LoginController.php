@@ -11,6 +11,7 @@ use App\User;
 use Auth;
 
 use Illuminate\Support\Str;
+use Laravel\Socialite\Two\InvalidStateException;
 use Socialite;
 
 use App\Http\Controllers\Controller;
