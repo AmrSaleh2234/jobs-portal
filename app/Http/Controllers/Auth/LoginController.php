@@ -10,6 +10,7 @@ use App\User;
 
 use Auth;
 
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Str;
 use Laravel\Socialite\Two\InvalidStateException;
 use Socialite;
@@ -127,9 +128,13 @@ use AuthenticatesUsers;
 
 //        $user = Socialite::driver($provider)->user();
         try {
-            $user = Socialite::driver($provider)->user();
-        } catch (InvalidStateException $e) {
+//            $user = Socialite::driver($provider)->user();
             $user = Socialite::driver($provider)->stateless()->user();
+
+        } catch (InvalidStateException $e) {
+
+            return Redirect::to('auth/google');
+
         }
 
         $authUser = $this->findOrCreateUser($user, $provider);
