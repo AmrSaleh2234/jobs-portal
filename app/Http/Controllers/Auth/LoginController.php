@@ -10,6 +10,7 @@ use App\User;
 
 use Auth;
 
+use Illuminate\Support\Str;
 use Socialite;
 
 use App\Http\Controllers\Controller;
@@ -121,6 +122,7 @@ use AuthenticatesUsers;
     public function handleProviderCallback($provider)
 
     {
+        session()->put('state',Str::random(40));
 
 //        $user = Socialite::driver($provider)->user();
         try {
