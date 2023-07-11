@@ -118,7 +118,7 @@ a {
 	-webkit-transition: 0.3s ease-in-out;
 	-ms-transition: 0.3s ease-in-out;
 	-moz-transition: 0.3s ease-in-out;
-	color: #17d27c;
+	color: #1acae2;
 	text-decoration: none;
 }
 a:hover{text-decoration: none;}
@@ -165,7 +165,7 @@ select {
 .titleTop .subtitle {
 	font-size: 18px;
 	font-weight: 600;
-	color: #17d27c;
+	color: #1acae2;
 	letter-spacing: 3px;
 }
 .titleTop h3 {
@@ -180,7 +180,7 @@ select {
 	margin-bottom: 30px;
 }
 .titleTop h3 span {
-	color: #5e2dfa;
+	color: #1321a5;
 	font-weight: 300;
 }
 .btn-primary{border: none;}
@@ -350,7 +350,7 @@ h6 {
 	margin-right: 10px;
 }
 .mt-list-style-blue {
-	color: #5e2dfa;
+	color: #1321a5;
 }
 /*Buttons*/
 
@@ -364,7 +364,7 @@ h6 {
 	padding: 0 20px;
 }
 .mt-style-button1 .mt-style-button {
-	background: #5e2dfa;
+	background: #1321a5;
 	color: #fff;
 	border-radius: 3px;
 }
@@ -415,16 +415,16 @@ h6 {
 	text-decoration: none;
 }
 .mt-style-button2 .mt-style-button:hover {
-	background: #5e2dfa;
+	background: #1321a5;
 	color: #fff;
 	border-radius: 3px;
 	text-decoration: none;
 }
 .mt-style-button3 .mt-style-button:hover {
-	background: #5e2dfa;
+	background: #1321a5;
 	color: #fff;
 	border-radius: 3px;
-	border: 2px solid #5e2dfa;
+	border: 2px solid #1321a5;
 	text-decoration: none;
 }
 .mt-style-button41 .mt-style-button:hover {
@@ -493,7 +493,7 @@ h6 {
 	background: none;
 }
 .navbar-nav>li>a:hover, .navbar-nav>li:hover>a, .navbar-nav>li.active>a {
-	border-bottom-color: #5e2dfa;
+	border-bottom-color: #1321a5;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
 	background-color: #fff;
@@ -505,7 +505,7 @@ h6 {
 	padding: 0;
 	border: none;
 	box-shadow: 2px 8px 15px rgba(0,0,0,.1);
-	
+
 }
 .navbar-nav>li:hover .dropdown-menu {
 	display: block;
@@ -518,7 +518,7 @@ h6 {
 	font-size: 14px;
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu>li>a:hover {
-	background: #5e2dfa;
+	background: #1321a5;
 	color: #fff;
 }
 .navbar-collapse.in {
@@ -530,7 +530,7 @@ h6 {
 	padding: 0;
 }
 .navbar-expand-lg .navbar-nav .nav-link.register {
-	background: #5e2dfa;
+	background: #1321a5;
 	color: #fff;
 	padding:10px 18px;
 	border-radius: 40px;
@@ -576,7 +576,7 @@ h6 {
 *************************************************/
 
 .searchwrap {
-	background:url(../images/search-bg.png) no-repeat bottom;	
+	background:url(../images/search-bg.png) no-repeat bottom;
 	padding:100px 0;
 	height: 800px;
 }
@@ -587,7 +587,7 @@ h6 {
 }
 .searchwrap h3 span {
 	display: block;
-	color: #17d27c;
+	color: #1acae2;
 	font-weight: 700;
 }
 
@@ -650,7 +650,7 @@ h6 {
     -ms-transition: background 0.5s ease;
     -o-transition: background 0.5s ease;
     transition: background 0.5s ease;
-	
+
 }
 
 h3.seekertxt{text-align: left; color: #000; font-size: 48px; font-weight: 700;  }
@@ -676,7 +676,7 @@ h3.seekertxt span{color: #009c46;}
 
 .srchbtn{text-align: center;}
 .searchbar .btn {
-	background: #17d27c;
+	background: #1acae2;
 	color: #fff;
 	border: none;
 	font-size: 16px;
@@ -706,7 +706,7 @@ h3.seekertxt span{color: #009c46;}
 	margin-right: 10px;
 }
 .getstarted a:hover {
-	background: #5e2dfa;
+	background: #1321a5;
 	text-decoration: none;
 }
 
@@ -771,7 +771,7 @@ h3.seekertxt span{color: #009c46;}
 	font-size: 18px;
 }
 #map-section .btn {
-	background: #5e2dfa;
+	background: #1321a5;
 	border-radius: 0;
 	color: #fff;
 	border: none;
@@ -786,7 +786,7 @@ h3.seekertxt span{color: #009c46;}
 	position: relative;
 	max-width: 555px;
 	float: right;
-	
+
 }
 
 .searchblack .searchbar{margin-top: 0; box-shadow: 0 10px 30px rgba(0,0,0,0.1);}
@@ -797,7 +797,7 @@ h3.seekertxt span{color: #009c46;}
 }
 .searchblack h3 span {
 	display: block;
-	color: #17d27c;
+	color: #1acae2;
 	font-weight: 700;
 }
 
@@ -1293,7 +1293,7 @@ background:#adb5bd
 	width: 100%;
 }
 .chat-form .form-group textarea {
-	width: 100%;    
+	width: 100%;
     padding: 5px 11px;
 }
 .chat-form .input-wrap {
@@ -1426,7 +1426,7 @@ background:#adb5bd
 	padding: 15px 50px;
 	text-transform: capitalize !important;
 	text-align: left;
-	background: #5e2dfa;
+	background: #1321a5;
 	font-family: 'Montserrat', sans-serif;
 	border-radius:45px;
 }
@@ -1458,7 +1458,7 @@ background:#adb5bd
 }
 .howlist li .iconcircle i {
 	font-size: 48px;
-	color: #17d27c;
+	color: #1acae2;
 }
 .howlist li h4 {
 	font-size: 24px;
@@ -1480,13 +1480,13 @@ background:#adb5bd
     background-color: #f8fbff;
     padding: 20px;
     border-radius: 15px;
-    text-decoration: none;    
+    text-decoration: none;
     margin-top: 30px;
     transition: all 0.4s ease 0s;
 }
 .statsbox .statint:hover{box-shadow:0px 18px 40px rgb(25 15 9 / 10%); transform: translateY(-3px); transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);}
 .statico{margin-right: 15px;}
-.statico i{width:50px; height: 50px; background: #eaeff5; border-radius: 50%; text-align: center; line-height:50px; font-size:26px; color: #5e2dfa;}
+.statico i{width:50px; height: 50px; background: #eaeff5; border-radius: 50%; text-align: center; line-height:50px; font-size:26px; color: #1321a5;}
 .statsbox .statint h4{margin-bottom: 0; font-size:32px;}
 
 
@@ -1496,7 +1496,7 @@ background:#adb5bd
 .hmindlist{margin-bottom: 0;}
 .hmindlist li{display: inline-block; margin-right:8px; margin-bottom:8px;}
 .hmindlist li a{background:#e7f1ff; color: #5e7ca1; font-size: 13px; padding: 5px 10px; border-radius: 25px; display: block;}
-.hmindlist li a:hover{color: #fff; background: #5e2dfa;}
+.hmindlist li a:hover{color: #fff; background: #1321a5;}
 
 
 .citieswrap{background:#f2f6fd;}
@@ -1523,7 +1523,7 @@ background:#adb5bd
     -ms-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s; border: 1px solid #eee; padding: 22px 18px; margin-bottom: 15px;}
-.employerList li .empint:hover{border-color: #5e2dfa; transform: translateY(-3px);
+.employerList li .empint:hover{border-color: #1321a5; transform: translateY(-3px);
 		transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1); box-shadow: 0px 10px 20px -5px rgba(0,0,0,0.1);}
 
 .employerList li .empint a{color: #000;}
@@ -1533,7 +1533,7 @@ background:#adb5bd
     padding-right: 15px;
 }
 .emptbox h4{font-size: 16px; margin-bottom: 5px; min-height: 32px;}
-.text-info-right .emloc{color: #5e2dfa;}
+.text-info-right .emloc{color: #1321a5;}
 .cm-info-bottom{color: #8c96a3;}
 
 .employerList li h3{font-size: 14px; margin-top: 10px; margin-bottom: 5px;}
@@ -1550,7 +1550,7 @@ background:#adb5bd
     -ms-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s; border: 1px solid #eee; padding: 22px 18px; margin-bottom: 30px;}
-.compnaieslist li .empint:hover{border-color: #5e2dfa; transform: translateY(-3px);
+.compnaieslist li .empint:hover{border-color: #1321a5; transform: translateY(-3px);
 		transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1); box-shadow: 0px 10px 20px -5px rgba(0,0,0,0.1);}
 
 .compnaieslist li .empint a{color: #000;}
@@ -1560,7 +1560,7 @@ background:#adb5bd
     padding-right: 15px;
 }
 .compnaieslist .emptbox h4{font-size: 16px; margin-bottom: 5px; min-height: 32px;}
-.compnaieslist .text-info-right .emloc{color: #5e2dfa;}
+.compnaieslist .text-info-right .emloc{color: #1321a5;}
 .compnaieslist .cm-info-bottom{color: #8c96a3;}
 
 .compnaieslist li h3{font-size: 14px; margin-top: 10px; margin-bottom: 5px;}
@@ -1572,11 +1572,11 @@ background:#adb5bd
 .compnaieslist li .compint{background: #fff; padding:10px; border: 1px solid #e4e4e4;}
 .compnaieslist li .imgwrap{min-height: 240px; max-height: 240px; overflow: hidden; margin-bottom: 10px;}
 .compnaieslist li .imgwrap img{width: 100%;}
-.compnaieslist li:hover .compint{box-shadow: 0 0 10px rgba(0,0,0,0.1); border: 1px solid #5e2dfa;}
-.compnaieslist li h3 a{font-size: 18px; color:#5e2dfa ;}
+.compnaieslist li:hover .compint{box-shadow: 0 0 10px rgba(0,0,0,0.1); border: 1px solid #1321a5;}
+.compnaieslist li h3 a{font-size: 18px; color:#1321a5 ;}
 .compnaieslist li .loctext{margin-bottom: 10px;}
 .compnaieslist li i {
-    color: #5e2dfa;
+    color: #1321a5;
     width: 18px;
     text-align: left;
 }
@@ -1613,7 +1613,7 @@ background:#adb5bd
 	font-weight: 600
 }
 .catelist li a:hover {
-	color: #5e2dfa;
+	color: #1321a5;
 }
 .catelist li a:before {
 	position: absolute;
@@ -1630,15 +1630,15 @@ background:#adb5bd
 /***************************
 		Searh Tabs
 ***************************/
-.tabswrap{border-bottom:3px solid #5e2dfa;}
+.tabswrap{border-bottom:3px solid #1321a5;}
 .tabswrap .nav-tabs{border-bottom: none; float: right;}
 .tabswrap .nav-tabs>li{margin-bottom:0;}
 .tabswrap .nav-tabs>li>a{background:none; border-radius:0; font-size:16px; font-weight:400; color:#666; padding:15px 30px; border: none;}
 
-.tabswrap .nav-tabs>li>a.active, .tabswrap .nav-tabs>li>a.active:focus{background:#5e2dfa; color:#fff; border-color:#5e2dfa; border-radius: 5px 5px 0 0; font-weight:700;}
+.tabswrap .nav-tabs>li>a.active, .tabswrap .nav-tabs>li>a.active:focus{background:#1321a5; color:#fff; border-color:#1321a5; border-radius: 5px 5px 0 0; font-weight:700;}
 .tabswrap .nav-tabs>li.last{float:right;}
 .tabswrap .nav-tabs>li.last a{background:none; font-size:14px; padding:0; margin:0; border:none; margin-top:7px;}
-.tabswrap .nav-tabs>li.last a:hover{border:none; color:#5e2dfa;}
+.tabswrap .nav-tabs>li.last a:hover{border:none; color:#1321a5;}
 
 
 
@@ -1698,7 +1698,7 @@ background:#adb5bd
 }
 .jobslist li .jobint:hover {
 	box-shadow: 0 5px 30px rgba(0,0,0,0.1);
-	border-color: #5e2dfa
+	border-color: #1321a5
 }
 .jobslist li .col-md-7, .jobslist li .col-md-9 {
 	padding-left: 0;
@@ -1712,14 +1712,14 @@ background:#adb5bd
 	font-weight: 700;
 }
 .jobslist li h4 a:hover {
-	color: #5e2dfa;
+	color: #1321a5;
 }
 .jobslist li .company {
 	color: #999;
 	padding: 7px 0
 }
 .jobslist li .company a {
-	color: #5e2dfa;
+	color: #1321a5;
 }
 .jobslist li .jobloc {
 	color: #000;
@@ -1730,15 +1730,15 @@ background:#adb5bd
 .jobslist li .applybtn {
 	background: #fff;
 	display: inline-block;
-	color: #5e2dfa;
+	color: #1321a5;
 	font-weight: 600;
 	padding: 9px 13px;
 	margin-top: 20px;
-	border: 1px solid #5e2dfa;
+	border: 1px solid #1321a5;
 	border-radius: 45px;
 }
 .jobslist li .applybtn:hover {
-	background: #5e2dfa;
+	background: #1321a5;
 	color: #fff;
 	text-decoration: none;
 }
@@ -1765,7 +1765,7 @@ background:#adb5bd
 }
 .viewallbtn a {
 	display: inline-block;
-	background: #5e2dfa;
+	background: #1321a5;
 	color: #fff;
 	font-size: 18px;
 	font-weight: 600;
@@ -1839,7 +1839,7 @@ label.partTime[title="Rotating"] {
 	margin-top: 30px;
 	transition: all 0.4s ease 0s;
 }
-.featuredlist .jobint:hover{border-color: #5e2dfa; transform: translateY(-3px);
+.featuredlist .jobint:hover{border-color: #1321a5; transform: translateY(-3px);
 	transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1); box-shadow: 0px 0 30px rgba(81, 81, 102, 0.2);}
 .fticon i{background-color: #d9e4ed;
     border-radius: 10px;
@@ -1854,9 +1854,9 @@ label.partTime[title="Rotating"] {
 
 .featuredlist .jobint h4{margin: 0; padding:25px 0;}
 .featuredlist .jobint h4 a{font-size: 18px; color: #000;}
-.featuredlist .jobint h4 a:hover{color: #17d27c;}
+.featuredlist .jobint h4 a:hover{color: #1acae2;}
 .featuredlist .jobint strong{font-weight: 700;}
-.featuredlist .jobint strong i{color:#17d27c;}
+.featuredlist .jobint strong i{color:#1acae2;}
 .featuredlist .jobint span{color: #999;}
 
 .jobcompany{display: flex;
@@ -1867,7 +1867,7 @@ label.partTime[title="Rotating"] {
 	.jobcompany .company-logo{display: block;
     width: 70px;
     height:70px;
-    
+
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1899,7 +1899,7 @@ label.partTime[title="Rotating"] {
 	color: #555;
 }
 
-.videowraper .embed-responsive{   
+.videowraper .embed-responsive{
 	background: #fff;
     border-radius: 30px;
     border: 20px solid #fff;
@@ -1914,15 +1914,15 @@ label.partTime[title="Rotating"] {
 *************************************************/
 .userloginbox{background:url(../images/login-bg.jpg) no-repeat center; background-attachment: fixed; background-size: cover; padding:40px 0 120px 0; text-align: center;}
 .userloginbox .viewallbtn{margin-top:30px;}
-.userloginbox .viewallbtn a{background: #17d27c;}
+.userloginbox .viewallbtn a{background: #1acae2;}
 .userloginbox .viewallbtn a:hover{background: #333;}
 .userloginbox p{max-width: 770px; margin: 0 auto;}
 
 
 .emploginbox{background:url(../images/login-bg2.jpg) no-repeat center; background-attachment: fixed; background-size: cover; padding:50px 0; text-align: center;}
 .emploginbox .viewallbtn{margin-top:30px;}
-.emploginbox .viewallbtn a{background: #17d27c;}
-.emploginbox .viewallbtn a:hover{background: #fff; color: #17d27c}
+.emploginbox .viewallbtn a{background: #1acae2;}
+.emploginbox .viewallbtn a:hover{background: #fff; color: #1acae2}
 .emploginbox p{max-width: 770px; margin: 0 auto;}
 
 
@@ -1968,7 +1968,7 @@ label.partTime[title="Rotating"] {
 .testimonialsList li .clientinfo {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
-	color: #17d27c;
+	color: #1acae2;
 	margin-bottom: 15px;
 }
 /************************************************
@@ -2043,7 +2043,7 @@ label.partTime[title="Rotating"] {
 	padding: 0 5px;
 }
 .breadCrumb span {
-	color: #5e2dfa;
+	color: #1321a5;
 	display: inline-block;
 	padding-left: 5px;
 }
@@ -2067,7 +2067,7 @@ label.partTime[title="Rotating"] {
 }
 .pageSearch .searchform{ margin: 0 auto;}
 .pageSearch a.btn {
-	background: #5e2dfa;
+	background: #1321a5;
 	color: #fff;
 	padding: 13px 15px;
 	font-size: 16px;
@@ -2106,7 +2106,7 @@ label.partTime[title="Rotating"] {
 	border-left: 1px solid #eee;
 }
 .searchform .btn {
-	background:#17d27c;
+	background:#1acae2;
 	font-size: 16px;
 	color: #fff;
 	padding:14px 20px;
@@ -2122,10 +2122,10 @@ label.partTime[title="Rotating"] {
 
 *************************************************/
 .jobreqbtn{margin-bottom: 20px;}
-.jobreqbtn a{display: block; padding: 10px 20px; text-align:left; margin-bottom: 10px; background: #5e2dfa; color: #fff;}
+.jobreqbtn a{display: block; padding: 10px 20px; text-align:left; margin-bottom: 10px; background: #1321a5; color: #fff;}
 .jobreqbtn a:hover{background: #333; color: #fff;}
 .jobreqbtn a.btn-job-alert-disabled{color: #999!important; border: 1px solid #999; cursor: default; background: none;}
-.jobreqbtn a.btn-job-alert{background: #17d27c; color: #fff;}
+.jobreqbtn a.btn-job-alert{background: #1acae2; color: #fff;}
 
 
 
@@ -2182,12 +2182,12 @@ label.partTime[title="Rotating"] {
 	top: 2px;
 }
 .sidebar a {
-	color: #5e2dfa;
+	color: #1321a5;
 	display: inline-block;
 	margin-top: 10px;
 }
 .searchnt .btn {
-	background: #5e2dfa;
+	background: #1321a5;
 	display: block;
 	border-radius: 0;
 	width: 100%;
@@ -2233,7 +2233,7 @@ label.partTime[title="Rotating"] {
 
 .searchList > li:hover {
 	box-shadow: 0px 10px 20px -5px rgba(0,0,0,0.1);
-	border-bottom-color:#5e2dfa;
+	border-bottom-color:#1321a5;
 }
 .searchList > li .jobimg {
 	float: left;
@@ -2271,15 +2271,15 @@ label.partTime[title="Rotating"] {
 	display: block;
 	border-radius: 40px;
 	width: 100%;
-	color: #5e2dfa;
+	color: #1321a5;
 	text-transform: uppercase;
 	font-weight: 700;
 	padding: 10px 15px;
 	text-align: center;
-	border: 1px solid #5e2dfa;
+	border: 1px solid #1321a5;
 }
 .searchList li .listbtn a:hover {
-	background: #5e2dfa;
+	background: #1321a5;
 	color: #fff;
 	text-decoration: none;
 }
@@ -2289,7 +2289,7 @@ label.partTime[title="Rotating"] {
 	margin: 10px 0 0 0;
 }
 .searchList li .cateinfo {
-	color: #5e2dfa;
+	color: #1321a5;
 	margin: 10px 0;
 }
 .searchList li .minsalary {
@@ -2297,7 +2297,7 @@ label.partTime[title="Rotating"] {
 	font-weight: 700;
 	text-align: center;
 	margin-top: 25px;
-	color: #17d27c;
+	color: #1acae2;
 }
 .searchList li .minsalary span {
 	color: #999;
@@ -2321,7 +2321,7 @@ label.partTime[title="Rotating"] {
 .btn-bars::after{display: none;}
 .btn-bars:hover{background-color: #ddd;}
 
-.btn-primary{background-color: #5e2dfa; line-height: normal; padding: 10px 25px;}
+.btn-primary{background-color: #1321a5; line-height: normal; padding: 10px 25px;}
 
 .searchList > li .dropdown-menu{z-index: 10;}
 .searchList > li .dropdown-menu li a{padding: 10px 15px;}
@@ -2370,7 +2370,7 @@ label.partTime[title="Rotating"] {
 	padding: 30px;
 	border-radius: 15px;
 }
-.companyinfo h3{margin-bottom: 30px; color: #5e2dfa; font-size: 24px;}
+.companyinfo h3{margin-bottom: 30px; color: #1321a5; font-size: 24px;}
 .companyinfo .companylogo {
 	width: 100px;
 	background: #fff;
@@ -2381,14 +2381,14 @@ label.partTime[title="Rotating"] {
 	display: block;
 	border-radius: 15px;
 }
-.companyinfo .ptext{color: #17d27c; padding: 7px 0;}
+.companyinfo .ptext{color: #1acae2; padding: 7px 0;}
 .companyinfo .title a {
 	font-size: 24px;
 	font-weight: 700;
 	color: #000;
 }
 .companyinfo .opening a {
-	color: #5e2dfa;
+	color: #1321a5;
 }
 .companyoverview{text-align: left;}
 .companyoverview p{color: #555; margin-bottom: 0;}
@@ -2406,7 +2406,7 @@ label.partTime[title="Rotating"] {
 }
 
 .loctext{margin-top: 15px;}
-.loctext i{margin-right: 5px; width: 24px; color: #17d27c;}
+.loctext i{margin-right: 5px; width: 24px; color: #1acae2;}
 .loctext a{color: #333;}
 
 .job-header .jobinfo .candidateinfo .title {
@@ -2426,7 +2426,7 @@ label.partTime[title="Rotating"] {
 }
 .job-header .jobinfo .candidateinfo .loctext i {
 	width: 20px;
-	color: #5e2dfa;
+	color: #1321a5;
 }
 
 .container {
@@ -2460,20 +2460,20 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 .userlinkstp.applybox{text-align: center; border-top: none; background: #fff; border-radius: 5px; margin-bottom: 30px;}
 .userlinkstp a {
 	margin-left: 10px;
-	color: #17d27c;
+	color: #1acae2;
 	font-weight: 600;
 	padding: 10px 30px;
 	font-size: 14px;border-radius: 40px;
-	border: 1px solid #17d27c;
+	border: 1px solid #1acae2;
 	position: relative;
 	z-index: 2
 }
-.userlinkstp a.report {	
+.userlinkstp a.report {
 	color: #e01010;
 	border-color:#e01010;
 }
 .userlinkstp a.apply {
-	background: #17d27c;
+	background: #1acae2;
 	color: #fff;
 	font-size: 18px;
 }
@@ -2485,15 +2485,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 	cursor: not-allowed
 }
 .userlinkstp a:hover {
-	background: #17d27c;
+	background: #1acae2;
 	color: #fff;
 }
-.userlinkstp a.report:hover {	
+.userlinkstp a.report:hover {
 	color: #fff;
 	background: #e01010;
 }
 
-.prolinkadd{display: inline-block; background: #17d27c; color: #fff; padding: 10px 25px; border-radius: 5px; margin-top: 15px;}
+.prolinkadd{display: inline-block; background: #1acae2; color: #fff; padding: 10px 25px; border-radius: 5px; margin-top: 15px;}
 .prolinkadd:hover{background: #222; color: #fff; text-decoration: none;}
 .cadsocial {
 	margin-top: 10px;
@@ -2505,7 +2505,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 	margin-right: 7px;
 }
 .cadsocial a:hover {
-	color: #5e2dfa;
+	color: #1321a5;
 }
 .relatedJobs {
 	margin-bottom: 30px;
@@ -2529,18 +2529,18 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 .jobButtons.applybox{text-align: right; border-top: none; background: #fff; border-radius: 5px; padding: 0; margin-top: 15px;}
 .jobButtons a {
 	margin-right: 10px;
-	color: #17d27c;
+	color: #1acae2;
 	font-weight: 600;
 	padding: 10px 30px;
 	font-size: 14px;border-radius: 40px;
-	border: 1px solid #17d27c;
+	border: 1px solid #1acae2;
 }
-.jobButtons a.report {	
+.jobButtons a.report {
 	color: #e01010;
 	border-color:#e01010;
 }
 .jobButtons a.apply {
-	background: #17d27c;
+	background: #1acae2;
 	color: #fff;
 	font-size: 18px;
 	margin-right: 0;
@@ -2553,11 +2553,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 	cursor: not-allowed
 }
 .jobButtons a:hover {
-	background: #17d27c;
+	background: #1acae2;
 	color: #fff;
 	border-color: #000;
 }
-.jobButtons a.report:hover {	
+.jobButtons a.report:hover {
 	color: #fff;
 	background: #e01010;
 }
@@ -2568,7 +2568,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 .job-header .contentbox h3 {
 	font-size: 24px;
 	font-weight: 700;
-	color: #5e2dfa;
+	color: #1321a5;
 	margin-bottom: 10px;
 }
 .job-header .contentbox h3 i, .jobdetail h3 i, .companyinfo h3 i{color: #ccc; margin-right: 5px; font-size: 20px;}
@@ -2597,7 +2597,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 .job-header .contentbox ul li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
-	color: #17d27c;
+	color: #1acae2;
 	position: absolute;
 	left: 0;
 }
@@ -2613,7 +2613,7 @@ ul.skillslist{margin-bottom: 0 !important;}
 ul.skillslist li:before{display: none;}
 ul.skillslist li{display: inline-block; padding: 0 !important;}
 ul.skillslist li a{display: inline-block; background: #eee; color: #555; padding: 10px 20px; margin: 5px 10px 5px 0; border-radius: 45px; font-weight: 600; font-size: 14px;}
-ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;}
+ul.skillslist li a:hover{text-decoration: none; background:#1acae2; color: #fff;}
 
 
 
@@ -2636,7 +2636,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 }
 .jobdetail h3 {
 	font-size: 18px;
-	color: #5e2dfa;
+	color: #1321a5;
 	font-weight: 700;
 }
 .jbdetail {
@@ -2648,7 +2648,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 }
 .jbdetail li a {
 	display: block;
-	color: #5e2dfa;
+	color: #1321a5;
 	font-weight: 600;
 }
 .jbdetail li span {
@@ -2657,10 +2657,10 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 	font-weight: 600;
 }
 .jbdetail li span.permanent {
-	color: #17d27c;
+	color: #1acae2;
 }
 .jbdetail li span.contract {
-	color: #5e2dfa;
+	color: #1321a5;
 }
 .jbdetail li span.freelance {
 	color: #F07200;
@@ -2690,7 +2690,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 	margin-top: 30px;
 }
 .educationList li:hover {
-	border-bottom-color: #5e2dfa;
+	border-bottom-color: #1321a5;
 }
 .educationList li:before {
 	display: none;
@@ -2702,7 +2702,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 .educationList li .date {
 	font-weight: 700;
 	line-height: 18px;
-	color: #17d27c;
+	color: #1acae2;
 }
 .educationList li h4 {
 	font-size: 18px;
@@ -2727,7 +2727,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 	margin-top: 30px;
 }
 .experienceList li:hover {
-	border-bottom-color: #5e2dfa;
+	border-bottom-color: #1321a5;
 }
 .experienceList li:before {
 	display: none;
@@ -2871,7 +2871,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 	margin-bottom: 30px;
 }
 .contact > span {
-	color: #5e2dfa;
+	color: #1321a5;
 	float: left;
 	font-size: 50px;
 	line-height: 30px;
@@ -2912,7 +2912,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 	text-align: right;
 }
 .contact-form button {
-	background-color: #5e2dfa;
+	background-color: #1321a5;
 	border: 0 none;
 	color: #fff;
 	display: inline-block;
@@ -2939,7 +2939,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 .faqs h4 a {
 	padding: 15px 55px 15px 15px;
 	display: block;
-	background: #5e2dfa;
+	background: #1321a5;
 	color: #fff;
 	font-size: 16px;
 	position: relative;
@@ -2954,7 +2954,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 }
 .faqs h4 .collapsed:hover, .faqs h4 a:hover, .faqs h4 a:active {
 	text-decoration: none;
-	background: #5e2dfa;
+	background: #1321a5;
 	color: #fff;
 }
 .faqs h4 a:before {
@@ -2963,7 +2963,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 	font-family: 'FontAwesome';
 	width: 30px;
 	padding: 6px 0;
-	color: #5e2dfa;
+	color: #1321a5;
 	position: absolute;
 	right: 15px;
 	top: 8px;
@@ -3026,7 +3026,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 .formpanel .formrow > label.btn{color: #fff;}
 .formpanel .btn {
 	width: 100%;
-	background: #17d27c;
+	background: #1acae2;
 	color: #fff;
 	border-radius: 5px;
 	padding: 10px;
@@ -3078,7 +3078,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 	background: #f5f7ff;
 	padding: 50px;
 	border-radius: 10px;
-	border-bottom: 3px solid #17d27c;
+	border-bottom: 3px solid #1acae2;
 	margin-bottom: 30px;
 	box-shadow: 0px 6px 12px rgb(0 0 0 / 5%);
 }
@@ -3145,7 +3145,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 
 }
 .userbtns .nav-tabs >li a:hover, .userbtns .nav-tabs >li a.active {
-	background: #5e2dfa;
+	background: #1321a5;
 	border: none;
 	color: #fff;
 }
@@ -3154,7 +3154,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 	height: 0;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
-	border-top: 10px solid #5e2dfa;
+	border-top: 10px solid #1321a5;
 	content: '';
 	position: absolute;
 	bottom: -10px;
@@ -3164,7 +3164,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 
 .strippckinfo{background: #fff; padding-top: 20px; padding-right: 30px; margin-bottom: 30px;}
 .pkginfo{padding: 8px 0; border-bottom: 1px solid #eee; color: #777;}
-.pkginfo strong{color: #5e2dfa; font-weight: 700;}
+.pkginfo strong{color: #1321a5; font-weight: 700;}
 
 .tab-content>.active{opacity: 1;}
 .tab-content>.active.show{opacity: 1;}
@@ -3229,7 +3229,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 	color: #666;
 }
 .error-msg .btn {
-	background: #5e2dfa;
+	background: #1321a5;
 	color: #fff;
 	margin-top: 30px;
 	border-radius: 0;
@@ -3248,7 +3248,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 }
 .about-wraper h2 {
 	font-size: 36px;
-	color: #5e2dfa;
+	color: #1321a5;
 	font-weight: 700;
 	margin-bottom: 15px;
 }
@@ -3284,7 +3284,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 	margin-top: 100px;
 }
 .what_we_do .main-heading {
-	color: #5e2dfa;
+	color: #1321a5;
 	text-align: center;
 	line-height: 48px;
 	font-size: 36px;
@@ -3312,7 +3312,7 @@ ul.skillslist li a:hover{text-decoration: none; background:#17d27c; color: #fff;
 .whatList li .icon {
 	font-size: 103px;
 	color: #fff;
-	background: #5e2dfa;
+	background: #1321a5;
 	width: 180px;
 	height: 180px;
 	text-align: center;
@@ -3382,7 +3382,7 @@ ul.orderlist li:before {
 	padding: 10px 20px;
 	text-align: center;
 	margin-top: 30px;
-	border-top: 5px solid #5e2dfa;
+	border-top: 5px solid #1321a5;
 }
 .four-plan .boxes:hover {
 	    box-shadow: 0px 20px 40px 5px rgb(0 0 0 / 20%);
@@ -3424,7 +3424,7 @@ ul.orderlist li:before {
 	font-weight: bold;
 }
 .order a {
-	background: #5e2dfa;
+	background: #1321a5;
 	border-radius: 5px;
 	padding: 12px 20px;
 	color: #fff;
@@ -3443,7 +3443,7 @@ ul.orderlist li:before {
 }
 .invitereval h3{font-size: 24px;}
 .totalpay{font-size: 18px; padding: 15px 0;}
-.totalpay strong{color:#17d27c; font-weight: 700;}
+.totalpay strong{color:#1acae2; font-weight: 700;}
 
 .btn2s li{display: inline-block;}
 
@@ -3462,11 +3462,11 @@ ul.orderlist li:before {
 	font-size: 36px;
 	font-weight: bold;
 	display: inline-block;
-	color: #5e2dfa;
+	color: #1321a5;
 }
 
-.four-plan .col-md-4:nth-child(2) .main-plan .plan-price1-2{color: #17d27c;}
-.four-plan .col-md-4:nth-child(2) .boxes{border-top-color:  #17d27c;}
+.four-plan .col-md-4:nth-child(2) .main-plan .plan-price1-2{color: #1acae2;}
+.four-plan .col-md-4:nth-child(2) .boxes{border-top-color:  #1acae2;}
 
 .main-plan .plan-price1-3 {
 	font-size: 18px;
@@ -3750,7 +3750,7 @@ ul.orderlist li:before {
 }
 .blogList li .bloginner:hover {
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
-	border-color: #5e2dfa;
+	border-color: #1321a5;
 }
 .postimg {
 	position: relative;
@@ -3765,9 +3765,9 @@ ul.orderlist li:before {
 	padding: 7px 10px 0 10px;
 	text-align: center;
 	line-height: 20px;
-	background: #5e2dfa;
+	background: #1321a5;
 	letter-spacing: 0.4px;
-	outline: 3px solid #5e2dfa;
+	outline: 3px solid #1321a5;
 	border: 1px solid #fff;
 	position: absolute;
 	left: 14px;
@@ -3780,7 +3780,7 @@ ul.orderlist li:before {
 .post-header h2{margin-top: 15px;}
 .post-header h4 a {
 	font-size: 20px;
-	color: #5e2dfa;
+	color: #1321a5;
 	font-weight: 600;
 	display: block;
 	margin-top:10px;
@@ -3793,7 +3793,7 @@ ul.orderlist li:before {
 	line-height: 24px;
 }
 .postmeta span, .postmeta a {
-	color: #5e2dfa;
+	color: #1321a5;
 }
 .blogList p, .blogGrid li p {
 	line-height: 24px;
@@ -3830,7 +3830,7 @@ ul.orderlist li:before {
 }
 .blogGrid li .int:hover {
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
-	border-color: #5e2dfa;
+	border-color: #1321a5;
 }
 .blogGrid li .post-header {
 	margin-top: 10px;
@@ -4033,11 +4033,11 @@ blockquote:after {
 	font-family: 'FontAwesome';
 	position: absolute;
 	left: 0px;
-	color: #17d27c;
+	color: #1acae2;
 	font-size: 12px;
 }
 .categories li a:hover {
-	color: #17d27c;
+	color: #1acae2;
 }
 /*Archives*/
 
@@ -4069,7 +4069,7 @@ blockquote:after {
 	transition: all 0.4s ease-in-out;
 }
 .archive li a:hover span {
-	background: #5e2dfa;
+	background: #1321a5;
 	color: #fff;
 }
 /*Popular Posts*/
@@ -4129,8 +4129,8 @@ blockquote:after {
 	text-transform: uppercase;
 }
 .tags a:hover {
-	border: 1px solid #5e2dfa;
-	background: #5e2dfa;
+	border: 1px solid #1321a5;
+	background: #1321a5;
 	color: #fff;
 	text-decoration: none;
 }
@@ -4158,7 +4158,7 @@ blockquote:after {
 .usernavwrap{background: #fff; border-radius: 5px; margin-bottom: 30px;}
 .usernavdash {
 	margin-bottom: 0;
-	
+
 }
 .usernavdash li a {
 	border-bottom: none;
@@ -4168,7 +4168,7 @@ blockquote:after {
 }
 
 .usernavdash li a:hover {
-	color: #5e2dfa;
+	color: #1321a5;
 	text-decoration: none;
 }
 .usernavdash li i {
@@ -4178,10 +4178,10 @@ blockquote:after {
 	color: #999;
 }
 .usernavdash li.active a {
-	color: #5e2dfa;
+	color: #1321a5;
 }
 .usernavdash li.active a i, .usernavdash li a:hover i {
-	color: #5e2dfa;
+	color: #1321a5;
 }
 .fade:not(.show){opacity: 1;}
 .profbox{background: #f1f5ff; padding:30px; margin-bottom: 30px;border-radius: 5px;}
@@ -4219,7 +4219,7 @@ blockquote:after {
 .profilestat li h6 {
 	font-size: 30px;
 	font-weight: 600;
-	color: #5e2dfa;
+	color: #1321a5;
 	margin-bottom: 10px;
 }
 .profilestat li h6 span {
@@ -4251,17 +4251,17 @@ blockquote:after {
 	font-weight: 700;
 }
 .instoretxt .currency strong {
-	color: #5e2dfa;
+	color: #1321a5;
 }
 .instoretxt strong {
 	font-weight: 700;
-	color: #5e2dfa;
+	color: #1321a5;
 }
 .instoretxt a {
 	font-size: 18px;
 	display: inline-block;
 	padding: 9px 20px;
-	background: #5e2dfa;
+	background: #1321a5;
 	color: #fff;
 	margin: 0 5px;
 }
@@ -4289,7 +4289,7 @@ blockquote:after {
 	font-size: 16px;
 	font-weight: 700;
 	margin-bottom:10px;
-	
+
 }
 .switchbox .txtlbl i {
 	font-size: 14px;
@@ -4422,7 +4422,7 @@ blockquote:after {
 
 .subscribe {
 	padding:70px 50px;
-	background: #5e2dfa url(../images/newsletter-bg.png) no-repeat center;
+	background: #1321a5 url(../images/newsletter-bg.png) no-repeat center;
 	background-size: cover;
 	text-align: center;
 	border-radius:30px;
@@ -4446,7 +4446,7 @@ blockquote:after {
 	border-right: 1px solid #ddd;
 }
 .subscribe .btn {
-	background: #17d27c;
+	background: #1acae2;
 	padding: 15px 20px;
 	color: #fff;
 	border: none;
@@ -4592,7 +4592,7 @@ blockquote:after {
 .elemental .about-section .personal-details{
     padding:1em;
     margin-bottom:0;
-    background:#5e2dfa;
+    background:#1321a5;
 }
 .elemental .about-section .contact{
     border:none;
@@ -4800,7 +4800,7 @@ blockquote:after {
 	margin-top: 20px;
 }
 .social a {
-	color: #5e2dfa;
+	color: #1321a5;
 	font-size: 32px;
 	display: inline-block;
 	margin-right: 5px;
@@ -4862,7 +4862,7 @@ blockquote:after {
 }
 
 .footerWrap .quicklinks li a:hover {
-	color: #5e2dfa;
+	color: #1321a5;
 	text-decoration: none;
 }
 .copyright {
