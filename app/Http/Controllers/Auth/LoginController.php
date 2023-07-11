@@ -122,7 +122,12 @@ use AuthenticatesUsers;
 
     {
 
-        $user = Socialite::driver($provider)->user();
+//        $user = Socialite::driver($provider)->user();
+        try {
+            $user = Socialite::driver($provider)->user();
+        } catch (InvalidStateException $e) {
+            $user = Socialite::driver($provider)->stateless()->user();
+        }
 
         $authUser = $this->findOrCreateUser($user, $provider);
 
