@@ -29,9 +29,9 @@ class ApplyJobFormRequest extends Request
             case 'POST': {
                     return [
                         "cv_id" => "required",
-                        "current_salary" => "required|max:11",
-                        "expected_salary" => "required|max:11",
-                        "salary_currency" => "required|max:5",
+//                        "current_salary" => "required|max:11",
+//                        "expected_salary" => "required|max:11",
+//                        "salary_currency" => "required|max:5",
                     ];
                 }
             default:break;

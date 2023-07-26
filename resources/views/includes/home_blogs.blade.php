@@ -3,7 +3,7 @@
         <!-- title start -->
         <div class="titleTop">
             <div class="subtitle">{{__('Here You Can See')}}</div>
-            <h3>{{__('Latest')}} <span>{{__('Blogs')}}</span></h3>
+            <h3>{{__('Latest')}} <span>{{__('Blog')}}</span></h3>
         </div>
         <!-- title end -->
 

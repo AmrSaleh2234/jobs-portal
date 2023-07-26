@@ -3,7 +3,7 @@
     
         <!-- title start -->
         <div class="titleTop">
-            <h3>{{__('How It')}} <span>{{__('Works')}}</span></h3>
+            <h3>{{__('How It')}} <span> FreelanceJobOpenings</span></h3>
         </div>
         <!-- title end -->
         <ul class="howlist row">

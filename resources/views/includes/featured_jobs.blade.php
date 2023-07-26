@@ -2,7 +2,7 @@
     <div class="container"> 
         <!-- title start -->
         <div class="titleTop">
-            <h3>{{__('Featured')}} <span>{{__('Jobs')}}</span></h3>
+            <h3> <span>{{__('Jobs')}}</span> {{__('Featured')}}</h3>
         </div>
         <!-- title end --> 
 

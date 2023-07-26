@@ -53,7 +53,7 @@
                     <div class="statico"><i class="fas fa-briefcase"></i></div>
                     <div class="statinfo">
                     <h4>{{$jobsCount}}</h4>
-                    <p>Active Jobs</p>
+                    <p>{{__('Active Jobs')}}</p>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                 <div class="statico"><i class="fas fa-building"></i></div>
                 <div class="statinfo">
                     <h4>{{$companyCount}} </h4>
-                    <p>Active Companies </p>
+                    <p>{{__('Active Companies')}} </p>
                 </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                 <div class="statico"><i class="fas fa-users"></i></div>
                 <div class="statinfo">
                     <h4>{{$seekerCount}}</h4>
-                    <p>Candidates</p>
+                    <p>{{__('Candidates')}}</p>
                 </div>
                 </div>
             </div>
